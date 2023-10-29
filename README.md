@@ -8,6 +8,11 @@ Implement your own functions for direct and inverse transformations using the S-
 - S-Box (Substitution Box): A substitution box used for byte substitution.
 - P-Box (Permutation Box): A permutation box used for byte permutation.
 
+## Python Version Compatibility
+
+This project is developed using Python version 3.10.7. While it may be possible to run the project on earlier Python versions, it is important to note that doing so might result in unexpected side effects or errors. For optimal performance and to prevent potential issues, it's recommended to use Python version 3.10.7 or higher.
+
+
 ## Usage
 ### S-Box Transformation
 You can substitute a byte using the provided S-Box by calling the `substitute_byte` function. This function takes an input byte (as an integer from 0 to 255) and S-Box table. It returns the substituted byte.
